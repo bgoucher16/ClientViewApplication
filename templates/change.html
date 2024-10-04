@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Client Service</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Change Service for {{ client_name }}</h1>
+        <form method="POST">
+            <div class="form-group">
+                <label for="service">Select new service:</label>
+                <select id="service" name="service">
+                    <option value="1">Brokerage</option>
+                    <option value="2">Retirement</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <a href="{{ url_for('index') }}" class="back-link">Back to client list</a>
+    </div>
+</body>
+</html>
