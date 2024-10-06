@@ -1,3 +1,10 @@
+"""
+Brandon Goucher
+10/6/2024
+Version 1.0
+Used purely for testing the database to make sure that it was connecting properly
+"""
+
 from pymongo import MongoClient
 
 # Local MongoDB

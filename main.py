@@ -1,3 +1,18 @@
+"""
+Brandon Goucher
+10/6/2024
+Version 1.0
+This is a flask application that allows users to create accounts, login, and add clients to their list.
+It uses MongoDB as the database and the PyMongo library to interact with the database.
+The application uses sessions to keep track of the logged-in user and their clients.
+The main route (/) displays the clients associated with the logged-in user.
+The login route (/login) handles user authentication and registration.
+The add_client route (/add_client) allows users to add new clients to their list.
+The delete_client route (/delete_client/<client_id>) allows users to delete clients from their list.
+The logout route (/logout) logs out the user by clearing the session.
+The 404 error handler handles any invalid URLs and redirects the user to the login page.
+"""
+
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from pymongo import MongoClient
 from bson.objectid import ObjectId
