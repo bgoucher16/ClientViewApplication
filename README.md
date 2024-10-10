@@ -5,3 +5,6 @@
 **Image of the Main Client Page**
 
 <img src="https://github.com/user-attachments/assets/dd3d155f-8003-40b5-a7d4-52d0d6e3eadf" alt="Main Client Page" width="500" height="300">
+
+
+<img src="https://github.com/user-attachments/assets/b4727f84-a624-4d15-ab23-45ac985b1366" width="0" height="0">
